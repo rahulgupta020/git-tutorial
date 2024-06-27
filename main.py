@@ -5,6 +5,9 @@ def add(a,b):
 
 def sub(a,b):
     return a-b
+def mul(a,b):
+    return a*b
+
 
 def main(a,b):
     print("main function")
@@ -15,8 +18,11 @@ def main(a,b):
     sub_result = sub(a,b)
     print("sub_result = ", sub_result)
 
+    mul_result = mul(a,b)
+    print("mul_result = ", mul_result)
 
 if __name__ == '__main__':
     a=10
     b=5
     main(a=a, b=b)
+    

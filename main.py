@@ -16,7 +16,7 @@ def main(a,b):
     add_result = add(a,b)
     print("add_result = ", add_result)
 
-    sub_result = add(a,b)
+    sub_result = sub(a,b)
     print("sub_result = ", sub_result)
 
     mul_result = mul(a,b)

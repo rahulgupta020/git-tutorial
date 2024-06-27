@@ -9,6 +9,8 @@ def sub(a,b):
 def mul(a,b):
     return a*b
 
+def div(a,b):
+    return a/b
 
 def main(a,b):
     print("main function")
@@ -21,6 +23,9 @@ def main(a,b):
 
     mul_result = mul(a,b)
     print("mul_result = ", mul_result)
+
+    div_result = div(a,b)
+    print("div_result = ", div_result)
 
 if __name__ == '__main__':
     a=10

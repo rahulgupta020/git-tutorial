@@ -12,6 +12,10 @@ def mul(a,b):
 def div(a,b):
     return a/b
 
+def mod(a,b):
+    return a%b
+
+
 def main(a,b):
     print("main function")
     
@@ -26,6 +30,10 @@ def main(a,b):
 
     div_result = div(a,b)
     print("div_result = ", div_result)
+
+    modulo_result = mod(a,b)
+    print("modulo_result = ", modulo_result)
+
 
 if __name__ == '__main__':
     a=10

@@ -1,8 +1,4 @@
-from add import add
-from sub import sub
-from mul import mul
-from div import div
-from mod import mod
+
 
 def add(a,b):
     return a+b
